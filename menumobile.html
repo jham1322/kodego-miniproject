@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="menumobile.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="index.html"
+          ><img src="images/logo.png" alt="header-logo" class="logo"
+        /></a>
+        <div class="right-menu">
+          <ul class="menu__links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#writers">MEET OUR WRITERS</a></li>
+            <li><a href="contact.html" class="btn-header">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1" id="ham"></div>
+          <div class="bar2" id="ham"></div>
+          <div class="bar3" id="ham"></div>
+          <ul class="mobile-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#writers">MEET OUR WRITERS</a></li>
+            <li><a href="contact.html" class="btn-header">CONTACT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <script src="index.js"></script>
+  </body>
+</html>
